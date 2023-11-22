@@ -1,7 +1,13 @@
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
-
+.banner-gif {
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 200px;
+}
 .swiper-button-next, .swiper-button-prev {
   top: 35%;
 }
