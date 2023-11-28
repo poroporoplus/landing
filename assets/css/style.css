@@ -11,6 +11,10 @@ body {
   top: 35%;
 }
 
+.root {
+    --swiper-theme-color: #DB55DF;
+}
+
 .swiper-button-next {
   width: 110px;
   height: 110px;
