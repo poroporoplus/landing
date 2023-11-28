@@ -1,6 +1,13 @@
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+:root {
+    swiper-theme-color: #DB55DF;
+    tw-ring-color: rgb(37 87 99 / 0.5);
+    border-color: #fdd1f2;
+}
+
 .banner-gif {
   max-width: 100%;
   width: auto;
@@ -9,10 +16,6 @@ body {
 }
 .swiper-button-next, .swiper-button-prev {
   top: 35%;
-}
-
-:root {
-    --swiper-theme-color: #DB55DF;
 }
 
 .swiper-button-next {
