@@ -3,9 +3,15 @@ body {
 }
 
 :root {
-    swiper-theme-color: #DB55DF;
-    tw-ring-color: rgb(37 87 99 / 0.5);
-    border-color: #fdd1f2;
+    --swiper-theme-color: #DB55DF;
+    --tw-ring-color: rgb(37 87 99 / 0.5);
+    --border-color: #fdd1f2;
+}
+
+.page {
+swiper-theme-color: #DB55DF;
+tw-ring-color: rgb(37 87 99 / 0.5);
+border-color: #fdd1f2;
 }
 
 .banner-gif {
