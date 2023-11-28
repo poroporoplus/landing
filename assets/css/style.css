@@ -2,10 +2,16 @@ body {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+:root {
+    --swiper-theme-color: #DB55DF;
+    --tw-ring-color: rgb(37 87 99 / 0.5);
+    --border-color: #fdd1f2;
+}
+
 .page {
-  background-color: #fdd1f2; 
-  tw-ring-color: rgb(37 87 99 / 0.5);
-  swiper-theme-color: #DB55DF;
+  swiper-theme-color: var(--swiper-theme-color); 
+  border-color: var(--border-color); 
+  tw-ring-color: var(--tw-ring-color);
 }
 
 .banner-gif {
