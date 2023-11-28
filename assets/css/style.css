@@ -2,16 +2,14 @@ body {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-header {
-  max-width: 90%; /* Adjust this value as needed */
-}
-
 .banner-gif {
   max-width: 100%;
   width: auto;
   height: auto;
   max-height: 200px; /* Adjust this value as needed */
+  max-width: 90%; /* Adjust this value as needed */
 }
+
 .swiper-button-next, .swiper-button-prev {
   top: 35%;
 }
